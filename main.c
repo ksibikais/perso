@@ -206,6 +206,7 @@ tprev=SDL_GetTicks();
  
 
 //------------------update 
+printf("%f\n", p.acceleration);
 SDL_Flip(screen);
 p.dt=SDL_GetTicks()-t_prev;	//à la fin de la boucle de jeu
  
